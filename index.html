@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,40 +6,89 @@
     <title>Connect with Me</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
+        /* General body styling for dark theme */
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
             text-align: center;
             padding: 50px;
+            margin: 0;
+            opacity: 0;
+            animation: fadeIn 1s forwards; /* Fade-in animation */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
         h1 {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            color: #00aaff;
+            font-size: 3em;
+            letter-spacing: 1px;
         }
         ul {
             list-style-type: none;
             padding: 0;
         }
         li {
-            margin: 15px 0;
+            margin: 20px 0;
         }
+        /* Link styling */
         a {
             text-decoration: none;
-            color: #0077b5; /* LinkedIn blue */
-            font-size: 24px;
+            color: #00aaff;
+            font-size: 1.5em;
+            transition: color 0.3s ease-in-out;
+            position: relative;
+            display: inline-block;
+            padding: 5px 10px;
         }
         a:hover {
-            color: #005582; /* Darker LinkedIn blue */
+            color: #00ffaa;
         }
+        /* Icon and text alignment */
         .icon {
-            margin-right: 8px;
+            margin-right: 10px;
+            color: #00aaff;
         }
-        img {
-            margin-top: 20px;
+        li a::after {
+            content: "";
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #00aaff;
+            transition: width 0.3s;
+            margin-top: 5px;
+        }
+        li a:hover::after {
+            width: 100%;
+        }
+        /* Logo animation */
+        .logo {
+            max-width: 150px;
+            margin-bottom: 30px;
+            animation: bounce 2s infinite ease-in-out;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+        /* Responsive layout */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+            a {
+                font-size: 1.2em;
+            }
         }
     </style>
 </head>
 <body>
+    <!-- Adding the logo image -->
+    <img src="jeel-logo.png" alt="Jeel's Logo" class="logo">
+
     <h1>Connect with Me</h1>
     <ul>
         <li>
@@ -59,6 +107,5 @@
             </a>
         </li>
     </ul>
-    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeel0.github.io/#/" alt="QR Code">
 </body>
 </html>
