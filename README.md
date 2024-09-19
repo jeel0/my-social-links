@@ -2,7 +2,9 @@
 
 A simple webpage to display your social links with icons and stylish design. Clone this repository to create your own page and host it using GitHub Pages.
 
-![Preview](screenshot.png) <!-- You can add a screenshot of the webpage here -->
+![Preview]![Screenshot 2024-09-19 172629](https://github.com/user-attachments/assets/f10673c7-761c-4542-9f56-0f03b97fc751)
+
+<!-- You can add a screenshot of the webpage here -->
 
 ## Features
 
@@ -98,8 +100,3 @@ Feel free to fork the repository, modify it, and create your own version!
 - The webpage is simple and responsive, showing links with a clean list-style UI.
 - The README guides users through the entire process of cloning, modifying, and hosting the page.
 - A screenshot or GIF of the webpage could be added to the README for better visualization. You can upload it to GitHub or any image hosting service and update the link.
-
-```
-
-You can save this content in a `.md` file and use it as your README or documentation.
-```
