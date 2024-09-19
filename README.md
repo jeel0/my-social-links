@@ -2,7 +2,7 @@
 
 A simple webpage to display your social links with icons and stylish design. Clone this repository to create your own page and host it using GitHub Pages.
 
-![Preview]![Screenshot 2024-09-19 172629](https://github.com/user-attachments/assets/f10673c7-761c-4542-9f56-0f03b97fc751)
+![Screenshot 2024-09-19 172629](https://github.com/user-attachments/assets/f10673c7-761c-4542-9f56-0f03b97fc751)
 
 <!-- You can add a screenshot of the webpage here -->
 
