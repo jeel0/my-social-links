@@ -22,10 +22,10 @@
             to { opacity: 1; }
         }
 
-        /* Title Styling */
+        /* Title Styling with darker black */
         h1 {
             margin-bottom: 30px;
-            color: #FFCC00; /* Distinct gold-like color for title */
+            color: #0B0B0B; /* Darker black for title */
             font-size: 3em;
             letter-spacing: 1px;
         }
@@ -39,10 +39,10 @@
             margin: 20px 0;
         }
 
-        /* Link Styling */
+        /* Link Styling with lighter black */
         a {
             text-decoration: none;
-            color: #FFA500; /* Light orange for the links */
+            color: #2F2F2F; /* Lighter black for the links */
             font-size: 1.5em;
             transition: color 0.3s ease-in-out;
             position: relative;
@@ -51,13 +51,13 @@
         }
 
         a:hover {
-            color: #FFD700; /* Gold-ish color on hover */
+            color: #5F5F5F; /* Slightly lighter hover effect */
         }
 
         /* Icon and text alignment */
         .icon {
             margin-right: 10px;
-            color: #FFA500;
+            color: #2F2F2F;
         }
 
         li a::after {
@@ -65,7 +65,7 @@
             display: block;
             width: 0;
             height: 2px;
-            background: #FFA500;
+            background: #2F2F2F;
             transition: width 0.3s;
             margin-top: 5px;
         }
@@ -92,16 +92,16 @@
             }
         }
 
-        /* Small Button in the bottom-right corner */
+        /* Small Button in the bottom-right corner with pencil icon */
         .try-it-button {
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background-color: #FFA500; /* Light orange button */
+            background-color: #2F2F2F; /* Lighter black button */
             color: #ffffff;
             padding: 10px 20px;
-            border-radius: 5px;
-            font-size: 0.9em;
+            border-radius: 50%;
+            font-size: 1.5em;
             cursor: pointer;
             text-decoration: none;
             transition: background-color 0.3s;
@@ -109,7 +109,7 @@
         }
 
         .try-it-button:hover {
-            background-color: #FFD700; /* Gold hover */
+            background-color: #5F5F5F; /* Slightly lighter hover */
         }
 
         /* Responsive layout */
@@ -124,7 +124,7 @@
 
             .try-it-button {
                 padding: 8px 16px;
-                font-size: 0.8em;
+                font-size: 1.2em;
             }
         }
     </style>
@@ -152,7 +152,9 @@
         </li>
     </ul>
 
-    <!-- "Try it Yourself" button in the bottom-right corner -->
-    <a href="https://github.com/jeel0/my-social-links" target="_blank" class="try-it-button">Try it Yourself</a>
+    <!-- "Try it Yourself" button with pencil icon -->
+    <a href="https://github.com/jeel0/my-social-links" target="_blank" class="try-it-button">
+        <i class="fas fa-pencil-alt"></i>
+    </a>
 </body>
 </html>
